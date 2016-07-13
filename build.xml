@@ -34,7 +34,7 @@
         </javac>
         <jar destfile="javaTeste.jar">
             <manifest>
-                <attribute name="Main-Class" value="br.com.pungartnik.testeapp.TestApp"/>
+                <attribute name="Main-Class" value="br.com.pungartnik.testeapp.TesteApp"/>
             </manifest>
         </jar>
     </target>
