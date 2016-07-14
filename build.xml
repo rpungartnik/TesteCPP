@@ -32,11 +32,7 @@
             <src path="src"/>
             <classpath refid="TesteJavaApp.classpath"/>
         </javac>
-        <jar destfile="javaTeste.jar" basedir="bin\br\com\pungartnik\testeapp">
-            <manifest>
-                <attribute name="Main-Class" value="TesteApp"/>
-            </manifest>
-        </jar>
+        <jar destfile="javaTeste.jar" basedir="bin" />
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
     <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
