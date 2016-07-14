@@ -32,7 +32,7 @@
             <src path="src"/>
             <classpath refid="TesteJavaApp.classpath"/>
         </javac>
-        <jar destfile="javaTeste.jar">
+        <jar destfile="javaTeste.jar" basedir="bin\br\com\pungartnik\testeapp">
             <manifest>
                 <attribute name="Main-Class" value="br.com.pungartnik.testeapp.TesteApp"/>
             </manifest>
